@@ -1,0 +1,67 @@
+{% extends 'base-setor.html' %}
+
+{% block sidebar %}
+        <div class="sidebar">
+        <div class="sidebar-dropdown"><a href="#">Navigation</a></div>
+
+        <!--- Sidebar navigation -->
+        <!-- If the main navigation has sub navigation, then add the class "has_sub" to "li" of main navigation. -->
+        <ul id="nav">
+          <!-- Main menu with font awesome icon -->
+          <li><a href="/setor/{{ setor_id }}"><i class="fa fa-home"></i> Painel Inicial</a>
+            <!-- Sub menu markup
+            <ul>
+              <li><a href="#">Submenu #1</a></li>
+              <li><a href="#">Submenu #2</a></li>
+              <li><a href="#">Submenu #3</a></li>
+            </ul>-->
+          </li>
+          <li><a href="/upload/{{ setor_id }}"><i class="fa fa-tasks"></i> Upload</a></li>
+          <li><a href="/registros/{{ setor_id }}"><i class="fa fa-magic"></i> Registros</a></li>
+          <li class="open"><a href="/regras/{{ setor_id }}"><i class="fa fa-warning"></i> Regras</a></li>
+        </ul>
+    </div>
+    {% endblock %}
+{% block matter %}
+     <div class="admin-form" xmlns="http://www.w3.org/1999/html">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <!-- Widget starts -->
+            <div class="widget wred">
+              <div class="widget-head">
+                <i class="fa fa-wrench"></i> Regras do Setor
+              </div>
+              <div class="widget-content">
+                <div class="padd">
+
+                  <form method="post" action="" class="form-horizontal">
+                      {% csrf_token %}
+                    <!-- Registration form starts -->
+                                          <div class="form-group">
+                                            <div class="col-lg-9 col-lg-offset-1">
+                                              {{ form.as_p }}
+                                            </div>
+                                           </div>
+
+
+                                          <!-- Accept box and button s-->
+                                          <div class="form-group">
+
+                                            <div class="col-lg-9 col-lg-offset-3">
+											  <div class="checkbox">
+											  </div>
+                                              <button type="submit" class="btn btn-sm btn-success">Cadastrar</button>
+                                              <button type="reset" class="btn btn-sm btn-default">Reset</button>
+                                            </div>
+                                          </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

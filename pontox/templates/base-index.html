@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% block head %}
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- Title and other stuffs -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{ STATIC_URL }}img/favicon/favicon.png">
+<!-- Header starts -->
+  <header>
+    <div class="container">
+      <div class="row">
+
+        <!-- Logo section -->
+        <div class="col-md-4">
+          <!-- Logo. -->
+          <div class="logo">
+            <h1><a href="#">Ponto<span class="bold">X</span></a></h1>
+            <p class="meta">Gerenciador Inteligente de Pontos Biométricos</p>
+          </div>
+          <!-- Logo ends -->
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+{% endblock %}
+{% block title %}
+  <title>PontoX</title>
+  {% endblock %}
+{% block css %}
+  <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font awesome icon -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/font-awesome.min.css">
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/jquery-ui.css">
+  <!-- Calendar -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/fullcalendar.css">
+  <!-- prettyPhoto -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/prettyPhoto.css">
+  <!-- Star rating -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/rateit.css">
+  <!-- Date picker -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap-datetimepicker.min.css">
+  <!-- CLEditor -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/jquery.cleditor.css">
+  <!-- Data tables -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/jquery.dataTables.css">
+  <!-- Bootstrap toggle -->
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/jquery.onoff.css">
+  <!-- Main stylesheet -->
+  <link href="{{ STATIC_URL }}css/style.index.css" rel="stylesheet">
+  <!-- Widgets stylesheet -->
+  <link href="{{ STATIC_URL }}css/widgets.css" rel="stylesheet">
+
+  <script src="{{ STATIC_URL }}js/respond.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="{{ STATIC_URL }}js/html5shiv.js"></script>
+  <![endif]-->
+
+{% endblock %}
+
+
+
+{% block footer%}
+<!-- Footer starts -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+            <!-- Copyright info -->
+            <p class="copy">Copyright &copy; 2014 | <a href="{% url 'index' %}">PontoX</a> </p>
+      </div>
+    </div>
+  </div>
+</footer> 	
+{% endblock %}
+<!-- Footer ends -->
+
+{% block js %}
+    <!-- JS -->
+    <script src="{{ STATIC_URL }}js/jquery.js"></script> <!-- jQuery -->
+    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script> <!-- Bootstrap -->
+    <script src="{{ STATIC_URL }}js/jquery-ui.min.js"></script> <!-- jQuery UI -->
+{% endblock %}
