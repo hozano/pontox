@@ -34,13 +34,12 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="{{ STATIC_URL }}img/favicon/favicon.png">
 {% endblock %}
-
 {% block mainbar %}
 <div class="mainbar">
 
       <!-- Page heading -->
       <div class="page-head">
-        <h2 class="pull-left"><i class="fa fa-home"></i> Upload</h2>
+        <h2 onload="href.location=''" class="pull-left"><i class="fa fa-home"></i> Upload</h2>
 
         <!-- Breadcrumb -->
         <div class="bread-crumb pull-right">
@@ -152,26 +151,7 @@
             </div>
           </div>
         </div>
-    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h4 class="modal-title">Excluir Departamento</h4>
-          </div>
-          <div class="modal-body">
-            <p>Tem certeza que quer excluir o Departamento?</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true">Fechar</button>
-            <button type="submit" name="chaveDep" value="{{ d.id }}" class="btn btn-danger">Excluir</button>
-          </div>
-        </div>
-      </div>
-    </div>
-{% if not departamento %}
-    
-{% endif %}
+
 {% endblock %}
     </div>
    <!-- Mainbar ends -->
