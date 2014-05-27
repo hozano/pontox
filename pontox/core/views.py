@@ -58,7 +58,9 @@ def upload(request, setor_id):
 
                 data = dateTime.date()
 
-                usuario, created = Usuario.objects.get_or_create(nome=name, departamento=Departamento.objects.get(id=setor_id))
+                usuario, created = Usuario.objects.get_or_create(
+                    nome=name,departamento=Departamento.objects.get(id=setor_id),
+                    carga_horaria_semanal=20)
                 dia_trabalho, created = DiaTrabalho.objects.get_or_create(usuario=usuario, data=data)
 
                 Registro.objects.get_or_create(dia_trabalho=dia_trabalho, registro=dateTime)

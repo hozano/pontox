@@ -14,10 +14,20 @@ class Usuario(models.Model):
     nome = models.CharField(max_length=120)
     departamento = models.ForeignKey(Departamento)
     carga_horaria_semanal = models.IntegerField(default=20,blank=True)
+
     def horas_mes_passado(self):
         total = timedelta(hours=0, minutes=0)
         mes_passado = date.today().replace(day=1) - timedelta(days=1)
         for dia in self.diatrabalho_set.filter(data__year='2014', data__month=mes_passado.month):
+            total += dia.horas_trabalhadas()
+        return total
+
+    def horas_semana_passada(self):
+        total = timedelta(hours=0, minutes=0)
+        mes_passado = date.today().replace(day=1) - timedelta(days=1)
+        semana_passada = mes_passado - timedelta(days=7)
+        print semana_passada, mes_passado
+        for dia in self.diatrabalho_set.filter(data__range=[semana_passada, mes_passado]):
             total += dia.horas_trabalhadas()
         return total
 

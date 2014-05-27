@@ -22,6 +22,8 @@
                       <thead>
                         <tr>
                           <th>Nome</th>
+                          <th>Acumulado ultimo mês</th>
+                          <th>Acumulado ultima semana</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -29,6 +31,8 @@
                       {% for usuario in departamento.usuario_set.all %}
                         <tr>
                           <td><a href="/detalhes_usuario/{{ setor_id }}/{{ usuario.id }}">{{ usuario.nome }}</a></td>
+                          <td>{{ usuario.horas_mes_passado }}</td>
+                          <td>{{ usuario.horas_semana_passada }}</td>
                         </tr>
                       {% endfor %}
                       </tbody>
