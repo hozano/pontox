@@ -2,6 +2,7 @@
 from django.db import models
 from datetime import timedelta, date
 
+
 class Departamento(models.Model):
     nome = models.CharField(max_length=80)
 
@@ -18,7 +19,7 @@ class Usuario(models.Model):
     def horas_mes_passado(self):
         total = timedelta(hours=0, minutes=0)
         mes_passado = date.today().replace(day=1) - timedelta(days=1)
-        for dia in self.diatrabalho_set.filter(data__year='2014', data__month=mes_passado.month):
+        for dia in self.diatrabalho_set.filter(data__year=mes_passado.year, data__month=mes_passado.month):
             total += dia.horas_trabalhadas()
         return total
 
@@ -26,7 +27,6 @@ class Usuario(models.Model):
         total = timedelta(hours=0, minutes=0)
         mes_passado = date.today().replace(day=1) - timedelta(days=1)
         semana_passada = mes_passado - timedelta(days=7)
-        print semana_passada, mes_passado
         for dia in self.diatrabalho_set.filter(data__range=[semana_passada, mes_passado]):
             total += dia.horas_trabalhadas()
         return total

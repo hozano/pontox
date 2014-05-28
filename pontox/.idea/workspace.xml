@@ -26,8 +26,10 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="81" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1656">
-              <folding />
+            <state line="2" column="36" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1674">
+              <folding>
+                <element signature="e#15#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,7 +37,16 @@
       <file leaf-file-name="base-setor.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base-setor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="852" column="11" selection-start="31813" selection-end="31815" vertical-scroll-proportion="-2.1964285" vertical-offset="15213" max-vertical-offset="18306">
+            <state line="865" column="0" selection-start="32607" selection-end="32607" vertical-scroll-proportion="-576.6667" vertical-offset="0" max-vertical-offset="16002">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pontox/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="0" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0" vertical-offset="892" max-vertical-offset="1872">
               <folding />
             </state>
           </provider>
@@ -52,31 +63,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/views.py">
+      <file leaf-file-name="setor.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/setor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="48" selection-start="977" selection-end="977" vertical-scroll-proportion="0.6970387" vertical-offset="0" max-vertical-offset="1764">
+            <state line="108" column="77" selection-start="4012" selection-end="4012" vertical-scroll-proportion="-10.0" vertical-offset="1674" max-vertical-offset="2304">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detalhesUsuario.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/detalhesUsuario.html">
+      <file leaf-file-name="time_format.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/templatetags/time_format.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="61" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-8.777778" vertical-offset="465" max-vertical-offset="2340">
-              <folding>
-                <element signature="e#1826#1844#0" expanded="true" />
-                <element signature="e#2389#2408#0" expanded="true" />
-              </folding>
+            <state line="13" column="29" selection-start="377" selection-end="377" vertical-scroll-proportion="0.5318182" vertical-offset="0" max-vertical-offset="440">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/manager.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="29" column="0" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1764">
               <folding />
             </state>
           </provider>
@@ -104,12 +112,10 @@
         <option value="$PROJECT_DIR$/templates/apgDepartamento.html" />
         <option value="$PROJECT_DIR$/static/js/sparklines.js" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/pontox/settings.py" />
         <option value="$PROJECT_DIR$/templates/base-index.html" />
         <option value="$PROJECT_DIR$/templates/cadDepartamento.html" />
         <option value="$PROJECT_DIR$/core/urls.py" />
         <option value="$PROJECT_DIR$/templates/registros.html" />
-        <option value="$PROJECT_DIR$/templates/base-setor.html" />
         <option value="$PROJECT_DIR$/templates/regras.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
@@ -117,9 +123,15 @@
         <option value="$PROJECT_DIR$/core/manager.py" />
         <option value="$PROJECT_DIR$/templates/upload.html" />
         <option value="$PROJECT_DIR$/core/views.py" />
-        <option value="$PROJECT_DIR$/templates/setor.html" />
-        <option value="$PROJECT_DIR$/core/models.py" />
         <option value="$PROJECT_DIR$/templates/detalhesUsuario.html" />
+        <option value="$PROJECT_DIR$/templates/base-setor.html" />
+        <option value="$PROJECT_DIR$/templatetags/time_format.py" />
+        <option value="$PROJECT_DIR$/pontox/templatetags/time_format.py" />
+        <option value="$PROJECT_DIR$/core/models.py" />
+        <option value="$PROJECT_DIR$/pontox/settings.py" />
+        <option value="$PROJECT_DIR$/pontox/templatetags/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/setor.html" />
+        <option value="$PROJECT_DIR$/core/templatetags/time_format.py" />
       </list>
     </option>
   </component>
@@ -213,7 +225,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templatetags" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,7 +276,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="SearchEverywhereHistory" value="&#10;&gt;" />
+    <property name="SearchEverywhereHistory" value="(&#10;:i&#10;&gt;" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -247,6 +291,8 @@
       <recent name="$PROJECT_DIR$/static/css/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/pontox" />
       <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/templates/auth" />
@@ -521,11 +567,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23059185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21521907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264095" sideWeight="0.50038433" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.305638" sideWeight="0.49961567" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3041543" sideWeight="0.49961567" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -579,10 +625,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/detalhesUsuario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="61" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="2340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="70" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
-          <folding />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -611,9 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1800">
-          <folding />
-        </state>
+        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1800" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/manager.py">
@@ -626,7 +686,9 @@
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="70" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
-          <folding />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,9 +708,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1800">
-          <folding />
-        </state>
+        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1800" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/manager.py">
@@ -661,7 +721,9 @@
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="70" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1494">
-          <folding />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -681,18 +743,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="14" selection-start="5893" selection-end="5893" vertical-scroll-proportion="0.0" vertical-offset="2736" max-vertical-offset="3132">
-          <folding>
-            <element signature="n#block#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
+        <state line="152" column="14" selection-start="5893" selection-end="5893" vertical-scroll-proportion="0.0" vertical-offset="2736" max-vertical-offset="3132" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-          <folding />
-        </state>
+        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/manager.py">
@@ -705,7 +761,9 @@
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="70" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
-          <folding />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -725,18 +783,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="14" selection-start="5893" selection-end="5893" vertical-scroll-proportion="0.0" vertical-offset="2736" max-vertical-offset="3132">
-          <folding>
-            <element signature="n#block#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
+        <state line="152" column="14" selection-start="5893" selection-end="5893" vertical-scroll-proportion="0.0" vertical-offset="2736" max-vertical-offset="3132" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1800">
-          <folding />
-        </state>
+        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1800" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/manager.py">
@@ -749,7 +801,9 @@
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="70" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
-          <folding />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -762,18 +816,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="4" selection-start="6735" selection-end="6735" vertical-scroll-proportion="0.0" vertical-offset="2960" max-vertical-offset="4086">
-          <folding>
-            <element signature="n#block#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
+        <state line="172" column="4" selection-start="6735" selection-end="6735" vertical-scroll-proportion="0.0" vertical-offset="2960" max-vertical-offset="4086" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1800">
-          <folding />
-        </state>
+        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1800" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/manager.py">
@@ -786,7 +834,9 @@
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="20" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1548">
-          <folding />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -814,10 +864,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="14" selection-start="5893" selection-end="5893" vertical-scroll-proportion="-0.19173554" vertical-offset="2258" max-vertical-offset="3132">
-          <folding>
-            <element signature="n#block#0;n#!!top" expanded="false" />
-          </folding>
+        <state line="152" column="14" selection-start="5893" selection-end="5893" vertical-scroll-proportion="-0.19173554" vertical-offset="2258" max-vertical-offset="3132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2671" column="2" selection-start="51730" selection-end="51731" vertical-scroll-proportion="0.3324397" vertical-offset="47954" max-vertical-offset="93060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42023" selection-start="42187" selection-end="42193" vertical-scroll-proportion="0.28954422" vertical-offset="0" max-vertical-offset="373" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/jquery.dataTables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="42" selection-start="3959" selection-end="3966" vertical-scroll-proportion="0.3324397" vertical-offset="3404" max-vertical-offset="4086" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="2.4360902" vertical-offset="0" max-vertical-offset="1800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detalhesUsuario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.04511278" vertical-offset="0" max-vertical-offset="2340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="584" column="4" selection-start="19512" selection-end="19512" vertical-scroll-proportion="0.3325527" vertical-offset="10370" max-vertical-offset="11394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base-setor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="865" column="0" selection-start="32607" selection-end="32607" vertical-scroll-proportion="-576.6667" vertical-offset="0" max-vertical-offset="16002">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pontox/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0" vertical-offset="892" max-vertical-offset="1872">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,75 +938,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2671" column="2" selection-start="51730" selection-end="51731" vertical-scroll-proportion="0.3324397" vertical-offset="47954" max-vertical-offset="93060">
+        <state line="29" column="0" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42023" selection-start="42187" selection-end="42193" vertical-scroll-proportion="0.28954422" vertical-offset="0" max-vertical-offset="373">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/jquery.dataTables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="42" selection-start="3959" selection-end="3966" vertical-scroll-proportion="0.3324397" vertical-offset="3404" max-vertical-offset="4086">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="4" selection-start="4911" selection-end="4911" vertical-scroll-proportion="0.33333334" vertical-offset="2566" max-vertical-offset="11394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="45" selection-start="2737" selection-end="2737" vertical-scroll-proportion="2.4360902" vertical-offset="0" max-vertical-offset="1800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/detalhesUsuario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="61" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-8.777778" vertical-offset="465" max-vertical-offset="2340">
-          <folding>
-            <element signature="e#1826#1844#0" expanded="true" />
-            <element signature="e#2389#2408#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/setor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="61" selection-start="1413" selection-end="1413" vertical-scroll-proportion="1.5338346" vertical-offset="0" max-vertical-offset="1926">
+        <state line="108" column="77" selection-start="4012" selection-end="4012" vertical-scroll-proportion="-10.0" vertical-offset="1674" max-vertical-offset="2304">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="81" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1656">
-          <folding />
+        <state line="2" column="36" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="1674">
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base-setor.html">
+    <entry file="file://$PROJECT_DIR$/core/templatetags/time_format.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="852" column="11" selection-start="31813" selection-end="31815" vertical-scroll-proportion="-2.1964285" vertical-offset="15213" max-vertical-offset="18306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="977" selection-end="977" vertical-scroll-proportion="0.6970387" vertical-offset="0" max-vertical-offset="1764">
+        <state line="13" column="29" selection-start="377" selection-end="377" vertical-scroll-proportion="0.5318182" vertical-offset="0" max-vertical-offset="440">
           <folding />
         </state>
       </provider>
