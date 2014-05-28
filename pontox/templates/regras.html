@@ -16,12 +16,35 @@
               <li><a href="#">Submenu #3</a></li>
             </ul>-->
           </li>
-          <li><a href="/upload/{{ setor_id }}"><i class="fa fa-tasks"></i> Upload</a></li>
-          <li><a href="/registros/{{ setor_id }}"><i class="fa fa-magic"></i> Registros</a></li>
+          <li><a href="/upload/{{ setor_id }}"><i class="fa fa-upload"></i> Upload</a></li>
+          <li><a href="/registros/{{ setor_id }}"><i class="fa fa-file"></i> Registros</a></li>
           <li class="open"><a href="/regras/{{ setor_id }}"><i class="fa fa-warning"></i> Regras</a></li>
         </ul>
     </div>
     {% endblock %}
+    
+{% block mainbar %}
+<div class="mainbar">
+
+	    <!-- Page heading -->
+	    <div class="page-head">
+	      <h2 class="pull-left"><i class="fa fa-warning"></i> Regras do Setor</h2>
+
+        <!-- Breadcrumb -->
+        <div class="bread-crumb pull-right">
+          <a href="/setor/{{ setor_id }}"><i class="fa fa-home"></i> Início</a>
+          <!-- Divider -->
+          <span class="divider">/</span>
+          <a href="#" class="bread-current">Registros</a>
+        </div>
+
+        <div class="clearfix"></div>
+
+	    </div>
+    
+    
+    
+    
 {% block matter %}
      <div class="admin-form" xmlns="http://www.w3.org/1999/html">
   <div class="container">
@@ -52,7 +75,7 @@
 											  <div class="checkbox">
 											  </div>
                                               <button type="submit" class="btn btn-sm btn-success">Cadastrar</button>
-                                              <button type="reset" class="btn btn-sm btn-default">Reset</button>
+                                              <button type="reset" class="btn btn-sm btn-default">Limpar</button>
                                             </div>
                                           </div>
                   </form>
@@ -64,4 +87,8 @@
     </div>
   </div>
 </div>
+{% endblock %}
+    </div>
+   <!-- Mainbar ends -->
+   <div class="clearfix"></div>
 {% endblock %}
