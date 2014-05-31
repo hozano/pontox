@@ -1,10 +1,12 @@
 from django.contrib.auth.decorators import login_required
-from django.http.response import HttpResponseRedirect
+from django.http.response import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
 from django.shortcuts import render
 from django.contrib import messages
-from core.models import Upload, Usuario, Registro, Departamento, DiaTrabalho, Regra
+from core.models import Upload, Usuario, Registro, Departamento, DiaTrabalho
 from core.forms import UploadForm, DepartamentoForm, RegraForm
+from django.views.generic import TemplateView
+import json
 from datetime import datetime
 
 @login_required
@@ -97,3 +99,13 @@ def regras(request, setor_id):
             return HttpResponseRedirect(reverse('setor',args=setor_id))
     return render(request, 'regras.html', {'setor_id':setor_id, 'form':form,})
 
+class TabelaSetorAJAX(TemplateView):
+    def get(self, request, *args, **kwargs):
+        ano = request.GET['ano']
+        mes = request.GET['mes']
+        departamento = Departamento.objects.get(pk=request.GET['setor_id'])
+        usuarios = departamento.usuario_set.all()
+
+        dados = [usuario.horas_mes_as_json(ano=ano, mes=mes) for usuario in usuarios]
+
+        return HttpResponse(json.dumps(dados), mimetype='application/json')

@@ -1,6 +1,7 @@
 #coding: utf-8
 from django.db import models
 from datetime import timedelta, date
+from templatetags.time_format import horas_acumuladas
 
 
 class Departamento(models.Model):
@@ -16,20 +17,25 @@ class Usuario(models.Model):
     departamento = models.ForeignKey(Departamento)
     carga_horaria_semanal = models.IntegerField(default=20,blank=True)
 
-    def horas_mes_passado(self):
+    def horas_mes(self, ano, mes):
         total = timedelta(hours=0, minutes=0)
-        mes_passado = date.today().replace(day=1) - timedelta(days=1)
-        for dia in self.diatrabalho_set.filter(data__year=mes_passado.year, data__month=mes_passado.month):
+        for dia in self.diatrabalho_set.filter(data__year=ano, data__month=mes):
             total += dia.horas_trabalhadas()
         return total
 
-    def horas_semana_passada(self):
+    def horas_semana(self,ano, mes, semana):
         total = timedelta(hours=0, minutes=0)
-        mes_passado = date.today().replace(day=1) - timedelta(days=1)
-        semana_passada = mes_passado - timedelta(days=7)
-        for dia in self.diatrabalho_set.filter(data__range=[semana_passada, mes_passado]):
+        mes = date.replace(self, year=ano, month=mes,day=1)
+        semana = mes + timedelta(weeks=semana)
+        for dia in self.diatrabalho_set.filter(data__range=[mes, semana]):
             total += dia.horas_trabalhadas()
         return total
+
+    def horas_mes_as_json(self, ano, mes):
+        return dict(
+            chave=self.id, nome=self.nome, carga_horaria=self.carga_horaria_semanal,
+            horas_mes=horas_acumuladas(self.horas_mes(ano, mes))
+        )
 
     def __unicode__(self):
         return self.nome
