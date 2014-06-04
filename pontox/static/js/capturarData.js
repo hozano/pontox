@@ -2,8 +2,8 @@
  * Created by pedro on 5/30/14.
  */
 $(document).ready(function(){
+    var setorID = $('input[name=setor_id]').val();
     $('#gerar').click(function(){
-        var setorID = $('input[name=setor_id]').val();
         var $data = $('input[name=data]').val();
         if($data != null){
             $data = $data.split('-');
@@ -19,7 +19,13 @@ $(document).ready(function(){
                         tabela += '<tr>'+
                           '<td><a href="/detalhes_usuario/'+setorID+'/'+dados[i].chave+'">'+dados[i].nome+'</a></td>'+
                           '<td>'+dados[i].horas_mes+'</td>'+
-                          '<td></td>'+
+                          '<td><select>'+'<option>Horas por semana</option>'+
+                            '<option>Semana 1: '+dados[i].semana1+' <option/>'+
+                            '<option>Semana 2: '+dados[i].semana2+' <option/>'+
+                            '<option>Semana 3: '+dados[i].semana3+' <option/>'+
+                            '<option>Semana 4: '+dados[i].semana4+' <option/>'+
+                            '<option>Semana 5: '+dados[i].semana5+' <option/>'+
+                           '</select></td>'+
                         '</tr>'
                     }
                     tabela+='</tbody></table>';
@@ -31,4 +37,8 @@ $(document).ready(function(){
             alert("Antes de realizar a busca, insira uma data!");
         }
     });
+    $('#ranking').click(function(){
+        var $data = $('input[name=ranking]').val();
+        console.log($data.split('-'))
+    })
 });

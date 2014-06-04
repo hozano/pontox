@@ -106,6 +106,6 @@ class TabelaSetorAJAX(TemplateView):
         departamento = Departamento.objects.get(pk=request.GET['setor_id'])
         usuarios = departamento.usuario_set.all()
 
-        dados = [usuario.horas_mes_as_json(ano=ano, mes=mes) for usuario in usuarios]
+        dados = [usuario.horas_as_json(ANO=ano, MES=mes) for usuario in usuarios]
 
-        return HttpResponse(json.dumps(dados), mimetype='application/json')
+        return HttpResponse(json.dumps(dados), content_type='application/json')
