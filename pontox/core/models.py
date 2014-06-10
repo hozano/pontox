@@ -7,8 +7,20 @@ from templatetags.time_format import horas_acumuladas
 class Departamento(models.Model):
     nome = models.CharField(max_length=80)
 
-    def ranking_mensal(self):
-        return sorted(self.usuario_set.all(), key=lambda usuario: usuario.horas_mes_passado())[::-1][:5]
+    def ranking_mensal(self, ano, mes):
+        return sorted(self.usuario_set.all(), key=lambda usuario: usuario.horas_mes(ano, mes))[::-1][:5]
+
+    def ranking_as_json(self, ANO, MES):
+        ranking = self.ranking_mensal(ANO, MES)
+        return dict(
+            primeiro_nome=ranking[0].nome, primeiro_horas=horas_acumuladas(ranking[0].horas_mes(ANO, MES)),
+            segundo_nome=ranking[1].nome, segundo_horas=horas_acumuladas(ranking[1].horas_mes(ANO, MES)),
+            terceiro_nome=ranking[2].nome, terceiro_horas=horas_acumuladas(ranking[2].horas_mes(ANO, MES)),
+            quarto_nome=ranking[3].nome, quarto_horas=horas_acumuladas(ranking[3].horas_mes(ANO, MES)),
+            quinto_nome=ranking[4].nome, quinto_horas=horas_acumuladas(ranking[4].horas_mes(ANO, MES)),
+        )
+
+
     def __unicode__(self):
         return self.nome
 

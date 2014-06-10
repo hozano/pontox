@@ -109,3 +109,13 @@ class TabelaSetorAJAX(TemplateView):
         dados = [usuario.horas_as_json(ANO=ano, MES=mes) for usuario in usuarios]
 
         return HttpResponse(json.dumps(dados), content_type='application/json')
+
+class RankingAJAX(TemplateView):
+    def get(self, request, *args, **kwargs):
+        ano = request.GET['ano']
+        mes = request.GET['mes']
+        departamento = Departamento.objects.get(pk=request.GET['setor_id'])
+
+        dados = [departamento.ranking_as_json(ano, mes)]
+
+        return HttpResponse(json.dumps(dados), content_type='application/json')

@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from views import TabelaSetorAJAX
+from views import TabelaSetorAJAX, RankingAJAX
 from django.contrib.auth.views import login,logout, login_required
 
 urlpatterns = patterns('core.views',
@@ -12,5 +12,6 @@ urlpatterns = patterns('core.views',
     url(r'^upload/(?P<setor_id>\d+)$','upload', name='upload'),
     url(r'^detalhes_usuario/(?P<setor_id>\d+)/(?P<usuario_id>\d+)$','detalhesUsuario', name='detalhesUsuario'),
     url(r'^regras/(?P<setor_id>\d+)', 'regras', name='regras'),
-    url(r'^tabelaAjax/$', login_required(TabelaSetorAJAX.as_view()), name='tabAJAX')
+    url(r'^tabelaAjax/$', login_required(TabelaSetorAJAX.as_view()), name='tabAJAX'),
+    url(r'^rankingAjax/$', login_required(RankingAJAX.as_view()), name='rankAJAX')
 )
