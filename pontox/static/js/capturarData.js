@@ -22,8 +22,8 @@ $(document).ready(function(){
                           '<td>'+
                             '<label class="label label-success">'+dados[i].semana1+'</label>'+
                             '<label class="label label-warning">'+dados[i].semana2+'</label>'+
-                            '<label class="label label-default">'+dados[i].semana3+'</label>'+
-                            '<label class="label label-info">'+dados[i].semana4+'</label>'+
+                            '<label class="label label-danger">'+dados[i].semana3+'</label>'+
+                            '<label class="label label-primary">'+dados[i].semana4+'</label>'+
                            '</td>'+
                         '</tr>'
                     }

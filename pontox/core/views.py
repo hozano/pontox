@@ -68,14 +68,16 @@ def upload(request, setor_id):
 
                 Registro.objects.get_or_create(dia_trabalho=dia_trabalho, registro=dateTime)
             return HttpResponseRedirect(reverse('upload',args=(setor_id)))
-    arquivos = Upload.objects.all()
+    arquivos = Upload.objects.all() 
+    departamento = Departamento.objects.get(pk=setor_id)
     return render(request, 'upload.html', {'form':form, 'arquivos':arquivos,
-                'setor_id':setor_id, 'departamento':departamento})
+                'setor_id':setor_id, 'departamento':departamento, })
 
 @login_required
 def registros(request, setor_id):
+    departamento = Departamento.objects.get(pk=setor_id)
     setor = Departamento.objects.get(pk=setor_id)
-    return render(request, 'registros.html', {'setor':setor, 'setor_id':setor_id})
+    return render(request, 'registros.html', {'setor':setor, 'setor_id':setor_id, 'departamento':departamento})
 
 @login_required
 def setor(request, setor_id):
@@ -84,11 +86,13 @@ def setor(request, setor_id):
 
 @login_required
 def detalhesUsuario(request,setor_id, usuario_id):
+    departamento = Departamento.objects.get(pk=setor_id)
     usuario = Usuario.objects.get(pk=usuario_id)
-    return render(request, 'detalhesUsuario.html', {'setor_id':setor_id, 'usuario':usuario})
+    return render(request, 'detalhesUsuario.html', {'setor_id':setor_id, 'usuario':usuario, 'departamento':departamento})
 
 @login_required()
 def regras(request, setor_id):
+    departamento = Departamento.objects.get(pk=setor_id)
     form = RegraForm()
     if request.method == 'POST':
         form = RegraForm(request.POST)
@@ -98,7 +102,7 @@ def regras(request, setor_id):
             form.departamento = Departamento.objects.get(pk=setor_id)
             form.save()
             return HttpResponseRedirect(reverse('setor',args=setor_id))
-    return render(request, 'regras.html', {'setor_id':setor_id, 'form':form,})
+    return render(request, 'regras.html', {'setor_id':setor_id, 'form':form, 'departamento':departamento})
 
 class TabelaSetorAJAX(TemplateView):
     def get(self, request, *args, **kwargs):
