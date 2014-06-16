@@ -26,7 +26,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="97" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
+            <state line="41" column="0" selection-start="1678" selection-end="1678" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="2124">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,16 @@
       <file leaf-file-name="setor.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/setor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="24" selection-start="3777" selection-end="4068" vertical-scroll-proportion="-6.5185184" vertical-offset="1768" max-vertical-offset="2358">
+            <state line="41" column="52" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-12.0" vertical-offset="414" max-vertical-offset="2484">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-setor.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base-setor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1670" selection-end="1670" vertical-scroll-proportion="-2.0" vertical-offset="702" max-vertical-offset="15966">
               <folding />
             </state>
           </provider>
@@ -44,7 +53,16 @@
       <file leaf-file-name="capturarData.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/capturarData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="36" selection-start="2376" selection-end="2376" vertical-scroll-proportion="2.142857" vertical-offset="0" max-vertical-offset="1350">
+            <state line="25" column="91" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-0.47142857" vertical-offset="648" max-vertical-offset="1332">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3779" column="20" selection-start="77948" selection-end="77948" vertical-scroll-proportion="0.0" vertical-offset="67892" max-vertical-offset="97776">
               <folding />
             </state>
           </provider>
@@ -53,7 +71,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="49" selection-start="4759" selection-end="4759" vertical-scroll-proportion="0.0" vertical-offset="1673" max-vertical-offset="2106">
+            <state line="52" column="25" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.0" vertical-offset="1367" max-vertical-offset="2124">
               <folding />
             </state>
           </provider>
@@ -62,10 +80,8 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="80" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state line="15" column="80" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="396">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,14 +122,15 @@
         <option value="$PROJECT_DIR$/pontox/templatetags/time_format.py" />
         <option value="$PROJECT_DIR$/pontox/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/core/templatetags/time_format.py" />
-        <option value="$PROJECT_DIR$/templates/base-setor.html" />
         <option value="$PROJECT_DIR$/pontox/settings.py" />
         <option value="$PROJECT_DIR$/templates/tabelaAjax.html" />
         <option value="$PROJECT_DIR$/core/urls.py" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/templates/base-setor.html" />
         <option value="$PROJECT_DIR$/core/views.py" />
-        <option value="$PROJECT_DIR$/core/models.py" />
-        <option value="$PROJECT_DIR$/templates/setor.html" />
         <option value="$PROJECT_DIR$/static/js/capturarData.js" />
+        <option value="$PROJECT_DIR$/templates/setor.html" />
+        <option value="$PROJECT_DIR$/core/models.py" />
       </list>
     </option>
   </component>
@@ -168,6 +185,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -186,6 +231,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="SearchEverywhereHistory" value="+&#10;a&#10;(&#10;:i&#10;&gt;" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -493,14 +539,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="1020" width="1301" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19252187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19888623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264095" sideWeight="0.50038433" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29141104" sideWeight="0.49961567" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29032257" sideWeight="0.49961567" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -768,11 +814,6 @@
         <state line="2671" column="2" selection-start="51730" selection-end="51731" vertical-scroll-proportion="0.3324397" vertical-offset="47954" max-vertical-offset="93060" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42023" selection-start="42187" selection-end="42193" vertical-scroll-proportion="0.28954422" vertical-offset="0" max-vertical-offset="373" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/jquery.dataTables.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="196" column="42" selection-start="3959" selection-end="3966" vertical-scroll-proportion="0.3324397" vertical-offset="3404" max-vertical-offset="4086" />
@@ -817,46 +858,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="80" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3779" column="20" selection-start="77948" selection-end="77948" vertical-scroll-proportion="0.0" vertical-offset="67892" max-vertical-offset="97776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base-setor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="873" selection-end="873" vertical-scroll-proportion="-25.607204" vertical-offset="15361" max-vertical-offset="15966">
+        <state line="42" column="0" selection-start="1670" selection-end="1670" vertical-scroll-proportion="-2.0" vertical-offset="702" max-vertical-offset="15966">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/setor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="52" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-12.0" vertical-offset="414" max-vertical-offset="2484">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="49" selection-start="4759" selection-end="4759" vertical-scroll-proportion="0.0" vertical-offset="1673" max-vertical-offset="2106">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="80" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/setor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="24" selection-start="3777" selection-end="4068" vertical-scroll-proportion="-6.5185184" vertical-offset="1768" max-vertical-offset="2358">
+        <state line="52" column="25" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="2124">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="97" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
+        <state line="41" column="0" selection-start="1678" selection-end="1678" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="2124">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/capturarData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="36" selection-start="2376" selection-end="2376" vertical-scroll-proportion="2.142857" vertical-offset="0" max-vertical-offset="1350">
+        <state line="25" column="91" selection-start="1413" selection-end="1413" vertical-scroll-proportion="-0.47142857" vertical-offset="648" max-vertical-offset="1332">
           <folding />
         </state>
       </provider>

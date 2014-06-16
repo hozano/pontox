@@ -50,6 +50,7 @@ def upload(request, setor_id):
 
             #Inicio do tratamento do arquivo
             linhas = arquivo.arquivo.readlines()
+            linhas.pop(0)
             #Objeto modelo para tratar as datas
             d = datetime.now()
             for i in linhas:

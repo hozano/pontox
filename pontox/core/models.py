@@ -1,6 +1,6 @@
 #coding: utf-8
 from django.db import models
-from datetime import timedelta, date, datetime
+from datetime import timedelta, date, datetime, time
 from templatetags.time_format import horas_acumuladas
 
 
@@ -36,13 +36,13 @@ class Usuario(models.Model):
         return total
 
     def horas_semana(self, ano, mes, semana):
+        n_semana = semana
         total = timedelta(hours=0, minutes=0)
         mes = date(year=ano, month=mes, day=1)
-        if(semana == 1):
-            semana = mes + timedelta(days=6)
-        else:
-            mes = mes + timedelta(days=(semana-1)*7)
-            semana = mes + timedelta(weeks=semana*7)
+
+        semana = mes + timedelta(weeks=semana)
+        mes = mes + timedelta(weeks=n_semana-1)
+
         for dia in self.diatrabalho_set.filter(data__range=[mes, semana]):
             total += dia.horas_trabalhadas()
         return total
@@ -56,7 +56,6 @@ class Usuario(models.Model):
             semana2=horas_acumuladas(self.horas_semana(ANO, MES, 2)),
             semana3=horas_acumuladas(self.horas_semana(ANO, MES, 3)),
             semana4=horas_acumuladas(self.horas_semana(ANO, MES, 4)),
-            semana5=horas_acumuladas(self.horas_semana(ANO, MES, 5))
         )
 
     def __unicode__(self):

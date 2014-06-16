@@ -19,13 +19,12 @@ $(document).ready(function(){
                         tabela += '<tr>'+
                           '<td><a href="/detalhes_usuario/'+setorID+'/'+dados[i].chave+'">'+dados[i].nome+'</a></td>'+
                           '<td>'+dados[i].horas_mes+'</td>'+
-                          '<td><select>'+'<option>Horas por semana</option>'+
-                            '<option>Semana 1: '+dados[i].semana1+' <option/>'+
-                            '<option>Semana 2: '+dados[i].semana2+' <option/>'+
-                            '<option>Semana 3: '+dados[i].semana3+' <option/>'+
-                            '<option>Semana 4: '+dados[i].semana4+' <option/>'+
-                            '<option>Semana 5: '+dados[i].semana5+' <option/>'+
-                           '</select></td>'+
+                          '<td>'+
+                            '<label class="label label-success">'+dados[i].semana1+'</label>'+
+                            '<label class="label label-warning">'+dados[i].semana2+'</label>'+
+                            '<label class="label label-default">'+dados[i].semana3+'</label>'+
+                            '<label class="label label-info">'+dados[i].semana4+'</label>'+
+                           '</td>'+
                         '</tr>'
                     }
                     tabela+='</tbody></table>';
