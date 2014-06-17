@@ -38,6 +38,7 @@ $(document).ready(function(){
     });
     $('#ranking_btn').click(function(){
         var $data = $('input[name=ranking]').val();
+        console.log($data);
         if($data != ""){
             $data = $data.split('-');
             console.log($data);

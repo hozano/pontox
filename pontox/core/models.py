@@ -61,6 +61,8 @@ class Usuario(models.Model):
     def __unicode__(self):
         return self.nome
 
+    class Meta:
+        ordering = ['nome']
 
 class DiaTrabalho(models.Model):
     data = models.DateField()
