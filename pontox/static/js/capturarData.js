@@ -12,7 +12,7 @@ $(document).ready(function(){
                 type : 'get',
                 url : '/tabelaAjax/',
                 success : function(dados){
-                    var tabela='<table class="table table-striped table-bordered table-hover">'+
+                    var tabela='<table id="tabelaPrincipal" class="table table-striped table-bordered table-hover">'+
                       '<thead><tr><th>Nome</th><th>CH Mês</th><th>CH Semanal</th></tr>'+
                       '</thead><tbody id="tabelaPrincipal">';
                     for(var i=0; i < dados.length; i++){
@@ -29,6 +29,10 @@ $(document).ready(function(){
                     }
                     tabela+='</tbody></table>';
                     $('#tabelaPrincipal').html(tabela);
+                    $('#tabelaPrincipal').DataTable({
+                        "order": [[ 3, "desc" ]],
+                        dom: 'T<"clear">lfrtip'
+                    });
                 }
             });
         }
