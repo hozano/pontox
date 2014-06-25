@@ -16,6 +16,6 @@ def horas_acumuladas(timedelta):
         minutes = "{minutes}".format(**d)
         if len(minutes) == 1:
             minutes = '0'+str(minutes)
-        return str(hours)+"h "+minutes+'min'
+        return str(hours)+":"+minutes+'h'
     except ValueError:
         return None

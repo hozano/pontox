@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alterarInput.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="alterarInput.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/alterarInput.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.34866828" vertical-offset="0" max-vertical-offset="413">
+            <state line="10" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time_format.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="time_format.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/templatetags/time_format.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="29" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+            <state line="18" column="40" selection-start="567" selection-end="567" vertical-scroll-proportion="0.78450364" vertical-offset="0" max-vertical-offset="468">
               <folding />
             </state>
           </provider>
@@ -168,9 +168,9 @@
         <option value="$PROJECT_DIR$/static/js/capturarData.js" />
         <option value="$PROJECT_DIR$/templates/regras.html" />
         <option value="$PROJECT_DIR$/core/forms.py" />
-        <option value="$PROJECT_DIR$/core/templatetags/time_format.py" />
         <option value="$PROJECT_DIR$/templates/base-setor.html" />
         <option value="$PROJECT_DIR$/static/js/alterarInput.js" />
+        <option value="$PROJECT_DIR$/core/templatetags/time_format.py" />
       </list>
     </option>
   </component>
@@ -955,13 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/templatetags/time_format.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/regras.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="91" selection-start="474" selection-end="474" vertical-scroll-proportion="27.333334" vertical-offset="918" max-vertical-offset="1656">
@@ -997,10 +990,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/alterarInput.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.34866828" vertical-offset="0" max-vertical-offset="413">
+        <state line="10" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templatetags/time_format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="40" selection-start="567" selection-end="567" vertical-scroll-proportion="0.78450364" vertical-offset="0" max-vertical-offset="468">
+          <folding />
         </state>
       </provider>
     </entry>
