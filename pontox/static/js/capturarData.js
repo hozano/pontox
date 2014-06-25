@@ -3,38 +3,13 @@
  */
 $(document).ready(function(){
     var setorID = $('input[name=setor_id]').val();
+    var d = new Date(), mes = d.getMonth()+1, ano = d.getFullYear();
+    console.log(ano+'-'+mes);
+    updateTable(ano+'-'+mes);
     $('#gerar').click(function(){
         var $data = $('input[name=data]').val();
         if($data != ""){
-            $data = $data.split('-');
-            $.ajax({
-                data : {'ano':$data[0], 'mes':$data[1], 'setor_id':setorID},
-                type : 'get',
-                url : '/tabelaAjax/',
-                success : function(dados){
-                    var tabela='<table id="tabelaPrincipal" class="table table-striped table-bordered table-hover">'+
-                      '<thead><tr><th>Nome</th><th>CH Mês</th><th>CH Semanal</th></tr>'+
-                      '</thead><tbody id="tabelaPrincipal">';
-                    for(var i=0; i < dados.length; i++){
-                        tabela += '<tr>'+
-                          '<td><a href="/detalhes_usuario/'+setorID+'/'+dados[i].chave+'">'+dados[i].nome+'</a></td>'+
-                          '<td>'+dados[i].horas_mes+'</td>'+
-                          '<td>'+
-                            '<label class="label label-success">'+dados[i].semana1+'</label>'+
-                            '<label class="label label-warning">'+dados[i].semana2+'</label>'+
-                            '<label class="label label-danger">'+dados[i].semana3+'</label>'+
-                            '<label class="label label-primary">'+dados[i].semana4+'</label>'+
-                           '</td>'+
-                        '</tr>'
-                    }
-                    tabela+='</tbody></table>';
-                    $('#tabelaPrincipal').html(tabela);
-                    $('#tabelaPrincipal').DataTable({
-                        "order": [[ 3, "desc" ]],
-                        dom: 'T<"clear">lfrtip'
-                    });
-                }
-            });
+            updateTable($data);
         }
         else{
             alert("Antes de realizar a busca, insira uma data!");
@@ -70,5 +45,41 @@ $(document).ready(function(){
                 }
             });
         }
-    })
+    });
+    function updateTable($data){
+            $data = $data.split('-');
+            $.ajax({
+                data : {'ano':$data[0], 'mes':$data[1], 'setor_id':setorID},
+                type : 'get',
+                url : '/tabelaAjax/',
+                success : function(dados){
+                    var tabela='<table id="tabelaPrincipal" class="table table-striped table-bordered table-hover">'+
+                      '<thead><tr><th>Nome</th><th>CH Mês</th><th>CH Semanal</th></tr>'+
+                      '</thead><tbody>';
+                    for(var i=0; i < dados.length; i++){
+                        tabela += '<tr>'+
+                          '<td><a href="/detalhes_usuario/'+setorID+'/'+dados[i].chave+'">'+dados[i].nome+'</a></td>'+
+                          '<td>'+dados[i].horas_mes+'</td>'+
+                          '<td>'+
+                            '<label class="label label-success">'+dados[i].semana1+'</label>'+
+                            '<label class="label label-warning">'+dados[i].semana2+'</label>'+
+                            '<label class="label label-danger">'+dados[i].semana3+'</label>'+
+                            '<label class="label label-primary">'+dados[i].semana4+'</label>'+
+                           '</td>'+
+                        '</tr>'
+                    }
+                    tabela+='</tbody></table>';
+                    $('#tabelaPrincipal').dataTable().fnClearTable();
+                    $('#tabelaPrincipal').html(tabela);
+                    initTable();
+
+                }
+            });
+};
 });
+function initTable(){
+    $('#tabelaPrincipal').dataTable({
+      "order": [[ 3, "desc" ]],
+      "bDestroy": true
+    });
+}

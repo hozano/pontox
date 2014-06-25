@@ -11,6 +11,11 @@ def horas_acumuladas(timedelta):
         d = {"days": td.days}
         d["hours"], rem = (divmod(td.seconds, 3600))
         d["minutes"], d["seconds"] = divmod(rem, 60)
-        return str(hours)+"h "+"{minutes}".format(**d)+"min"
+        if len(str(hours)) == 1:
+            hours = '0'+str(hours)
+        minutes = "{minutes}".format(**d)
+        if len(minutes) == 1:
+            minutes = '0'+str(minutes)
+        return str(hours)+"h "+minutes+'min'
     except ValueError:
         return None
