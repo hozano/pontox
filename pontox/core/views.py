@@ -46,7 +46,6 @@ def upload(request, setor_id):
         if form.is_valid:
             messages.success(request, 'Carregado com sucesso!')
             arquivo = Upload(arquivo=request.FILES['arquivo'], titulo=request.POST['titulo'])
-            arquivo.save()
 
             #Inicio do tratamento do arquivo
             linhas = arquivo.arquivo.readlines()

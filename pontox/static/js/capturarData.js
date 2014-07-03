@@ -4,8 +4,8 @@
 $(document).ready(function(){
     var setorID = $('input[name=setor_id]').val();
     var d = new Date(), mes = d.getMonth()+1, ano = d.getFullYear();
-    console.log(ano+'-'+mes);
     updateTable(ano+'-'+mes);
+    updateRanking(ano+'-'+mes);
     $('#gerar').click(function(){
         var $data = $('input[name=data]').val();
         if($data != ""){
@@ -17,8 +17,11 @@ $(document).ready(function(){
     });
     $('#ranking_btn').click(function(){
         var $data = $('input[name=ranking]').val();
-        console.log($data);
         if($data != ""){
+            updateRanking($data);
+        }
+    });
+    function updateRanking($data){
             $data = $data.split('-');
             console.log($data);
             $.ajax({
@@ -44,10 +47,11 @@ $(document).ready(function(){
                     $('#ranking_tabela').html(tabela);
                 }
             });
-        }
-    });
+    }
     function updateTable($data){
             $data = $data.split('-');
+            var meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho',
+                'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
             $.ajax({
                 data : {'ano':$data[0], 'mes':$data[1], 'setor_id':setorID},
                 type : 'get',
@@ -71,15 +75,24 @@ $(document).ready(function(){
                     tabela+='</tbody></table>';
                     $('#tabelaPrincipal').dataTable().fnClearTable();
                     $('#tabelaPrincipal').html(tabela);
-                    initTable();
+                    initTable(meses[$data[1]-1]+' de '+$data[0]);
 
                 }
             });
 };
 });
-function initTable(){
+function initTable(entrada){
     $('#tabelaPrincipal').dataTable({
       "order": [[ 3, "desc" ]],
-      "bDestroy": true
+      "bDestroy": true,
+      "sDom": 'T<"clear">lfrtip',
+        "tableTools": {
+            "sSwfPath": "/copy_csv_xls_pdf.swf",
+            "aButtons": [ {
+                    "sExtends": "print",
+                    "sMessage":"<div class='col-med-4'><div class='well'>"+
+                        '<center><h2>'+entrada+'</h2></center>'+"<div><div>"
+                }  ]
+        }
     });
 }
