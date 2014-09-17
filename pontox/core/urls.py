@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from views import TabelaSetorAJAX, RankingAJAX
+from core.views import TabelaSetorAJAX, RankingAJAX
 from django.contrib.auth.views import login,logout, login_required
 
 urlpatterns = patterns('core.views',

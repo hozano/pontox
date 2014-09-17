@@ -1,8 +1,7 @@
 #coding: utf-8
 from django.db import models
-from datetime import timedelta, date, datetime, time
+from datetime import timedelta, date
 from templatetags.time_format import horas_acumuladas
-
 
 class Departamento(models.Model):
     nome = models.CharField(max_length=80)
@@ -98,6 +97,9 @@ class Regra(models.Model):
     horario_entrada = models.TimeField()
     horario_saida = models.TimeField()
     departamento = models.ForeignKey(Departamento)
+
+    def __unicode__(self):
+        return self.horario_entrada.__str__() + '-' + self.horario_saida.__str__()
 
     def horas_trabalhadas(self, dia_trabalho):
         registros = dia_trabalho.registro_set.all()

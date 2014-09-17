@@ -85,14 +85,22 @@ function initTable(entrada){
     $('#tabelaPrincipal').dataTable({
       "order": [[ 3, "desc" ]],
       "bDestroy": true,
-      "sDom": 'T<"clear">lfrtip',
+      "sDom": 'T<"clear"><"H"lfr>t<"F"ip>',
         "tableTools": {
-            "sSwfPath": "/copy_csv_xls_pdf.swf",
-            "aButtons": [ {
-                    "sExtends": "print",
-                    "sMessage":"<div class='col-med-4'><div class='well'>"+
+            "sSwfPath": "copy_csv_xls_pdf.swf",
+            "aButtons": [{
+                "sExtends":"print",
+                "sMessage":"<div class='col-med-4'><div class='well'>"+
                         '<center><h2>'+entrada+'</h2></center>'+"<div><div>"
-                }  ]
+                },
+                {
+                    "sExtends": "pdf",
+                    "sButtonText": "PDF",
+                    "sPdfOrientation":"landscape",
+                    "mColumns":[0, 1, 2],
+                    "sFileName": "ppg.pdf"
+                }
+            ]
         }
     });
 }

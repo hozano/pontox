@@ -51,35 +51,108 @@
               <div class="widget-content">
                 <div class="padd">
 
-                  <form method="post" action="" class="form-horizontal">
+                  <form method="post" class="form-horizontal">
                       {% csrf_token %}
                     <!-- Registration form starts -->
-                                          <div class="form-group">
-                                            <div class="col-lg-9 col-lg-offset-1">
-                                              {{ form.as_p }}
-                                            </div>
-                                           </div>
+                      <div class="form-group">
+                        <div class="col-lg-9 col-lg-offset-1">
+                            {% for field in form %}
+                                {{ field.label }}
+                                    <div id="datetimepicker2" class="input-append input-group dtpicker">
+                                        <input id="id_{{ field.name }}" data-format="hh:mm:ss" class="form-control" type="text">
+                                        <span class="input-group-addon add-on">
+                                            <i data-time-icon="fa fa-clock-o" data-date-icon="fa fa-calendar"></i>
+                                        </span>
+                                    </div>
+                            {% endfor %}
+                        </div>
+                       </div>
 
 
-                                          <!-- Accept box and button s-->
-                                          <div class="form-group">
+                      <!-- Accept box and button s-->
+                      <div class="form-group">
 
-                                            <div class="col-lg-9 col-lg-offset-3">
-											  <div class="checkbox">
-											  </div>
-                                              <button type="submit" class="btn btn-sm btn-success">Cadastrar</button>
-                                              <button type="reset" class="btn btn-sm btn-default">Limpar</button>
-                                            </div>
-                                          </div>
+                        <div class="col-lg-9 col-lg-offset-3">
+                          <div class="checkbox">
+                          </div>
+                          <button type="submit" name="A" class="btn btn-sm btn-success">Cadastrar</button>
+                          <button type="reset" class="btn btn-sm btn-default">Limpar</button>
+                        </div>
+                      </div>
                   </form>
 
                 </div>
               </div>
             </div>
       </div>
+
+      </div>
     </div>
-  </div>
 </div>
+    <div class="widget">
+                <div class="widget-head">
+                  <div class="pull-left">Regras Cadastradas</div>
+                  <div class="widget-icons pull-right">
+                    <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a>
+                    <a href="#" class="wclose"><i class="fa fa-times"></i></a>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+
+                  <div class="widget-content">
+
+                    <table class="table table-striped table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Horário de Entrada</th>
+                          <th>Horário de Saída</th>
+                          <th>Status</th>
+                          <th>Deletar?</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      <form method="post" action="">{% csrf_token %}
+                        {% for regra in regras %}
+                            <tr>
+                              <td>{{ count.pop }}</td>
+                              <td>{{ regra.horario_entrada}}</td>
+                              <td>{{ regra.horario_saida }}</td>
+                              <td><span class="label label-success">Ativo</span></td>
+                              <td>
+                                    <!-- Button to trigger modal -->
+                                <a href="#myModal" class="btn btn-xs btn-danger" data-toggle="modal"><i class="fa fa-times"></i></a>
+
+                                <!-- Modal -->
+                                <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="modal-title">Excluir Regra</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p>Tem certeza que quer excluir a regra?</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                         <input type="hidden" name="B" value="{{ regra.id }}">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true">Fechar</button>
+                                        <button type="submit" class="btn btn-danger">Excluir</button>
+                                  </div>
+                                </div>
+                                </div>
+                                </div>
+                              </td>
+                        </tr>
+                        {% endfor %}
+                        </form>
+                      </tbody>
+                    </table>
+                      <div class="clearfix"></div>
+
+                    </div>
+
+
 {% endblock %}
     </div>
    <!-- Mainbar ends -->

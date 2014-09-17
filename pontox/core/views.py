@@ -3,7 +3,7 @@ from django.http.response import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
 from django.shortcuts import render
 from django.contrib import messages
-from core.models import Upload, Usuario, Registro, Departamento, DiaTrabalho
+from core.models import Upload, Usuario, Registro, Departamento, DiaTrabalho, Regra
 from core.forms import UploadForm, DepartamentoForm, RegraForm
 from django.views.generic import TemplateView
 import json
@@ -12,9 +12,9 @@ from datetime import datetime
 @login_required
 def index(request):
     departametos = Departamento.objects.all()
-    count=range(1,100)[::-1]
+    count=range(1, 100)[::-1]
     if request.method == 'POST':
-        chaveDep = request.POST.get("chaveDep","")
+        chaveDep = request.POST.get("chaveDep", "")
         dep = Departamento.objects.get(pk=chaveDep)
         dep.delete()
         return HttpResponseRedirect(reverse('index'))
@@ -66,7 +66,7 @@ def upload(request, setor_id):
                 dia_trabalho, created = DiaTrabalho.objects.get_or_create(usuario=usuario, data=data)
 
                 Registro.objects.get_or_create(dia_trabalho=dia_trabalho, registro=dateTime)
-            return HttpResponseRedirect(reverse('upload',args=(setor_id)))
+            return HttpResponseRedirect(reverse('upload', args=(setor_id)))
     arquivos = Upload.objects.all() 
     departamento = Departamento.objects.get(pk=setor_id)
     return render(request, 'upload.html', {'form':form, 'arquivos':arquivos,
@@ -91,17 +91,26 @@ def detalhesUsuario(request,setor_id, usuario_id):
 
 @login_required()
 def regras(request, setor_id):
+    count=range(1, 100)[::-1]
     departamento = Departamento.objects.get(pk=setor_id)
+    regras = Regra.objects.filter(departamento=departamento)
     form = RegraForm()
     if request.method == 'POST':
-        form = RegraForm(request.POST)
-        if form.is_valid():
-            messages.success(request, 'Regra adicionanda com sucesso!')
-            form = form.save(commit=False)
-            form.departamento = Departamento.objects.get(pk=setor_id)
-            form.save()
-            return HttpResponseRedirect(reverse('setor',args=setor_id))
-    return render(request, 'regras.html', {'setor_id':setor_id, 'form':form, 'departamento':departamento})
+        if 'B' in request.POST:
+            chaveRegra = request.POST.get("B")
+            regra = Regra.objects.get(pk=chaveRegra)
+            regra.delete()
+            return HttpResponseRedirect(reverse('regras', args=setor_id))
+        elif 'A' in request.POST:
+            form = RegraForm(request.POST)
+            if form.is_valid():
+                form = form.save(commit=False)
+                form.departamento = Departamento.objects.get(pk=setor_id)
+                form.save()
+            return HttpResponseRedirect(reverse('regras', args=setor_id))
+
+    return render(request, 'regras.html', {'setor_id':setor_id, 'form':form,
+                'departamento':departamento, 'count':count, 'regras':regras})
 
 class TabelaSetorAJAX(TemplateView):
     def get(self, request, *args, **kwargs):

@@ -5,3 +5,4 @@ from core import models
 admin.site.register(models.Departamento)
 admin.site.register(models.Registro)
 admin.site.register(models.Usuario)
+admin.site.register(models.Regra)
