@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% block head %}
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- Title and other stuffs -->
+  <title>Login - ponto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  {% block css %}
+  <!-- Stylesheets -->
+  <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/font-awesome.min.css">
+  <link href="{{ STATIC_URL }}css/style.css" rel="stylesheet">
+  {% endblock %}
+  <script src="{{ STATIC_URL }}js/respond.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="{{ STATIC_URL }}js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{ STATIC_URL }}img/favicon/favicon.png">
+{% endblock %}
+
+{% block body %}
+
+<!-- Form area -->
+<div class="admin-form">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-11">
+        <!-- Widget starts -->
+            <div class="widget worange">
+              <!-- Widget head -->
+              
+              <div class="widget-head ">
+                <i class="fa fa-lock col-lg-offset-5"></i> Login
+              </div>
+
+              <div class="widget-content">
+                <div class="padd col-lg-offset-1">
+                  <!-- Código Django começa aqui! -->
+                  <!-- Login form -->
+                  <form method="post" action="{% url 'django.contrib.auth.views.login' %}" class="form-horizontal">
+                      {% csrf_token %}
+                    <!-- Email -->
+                    
+                    <div class="form-group">
+                      <div class="col-lg-offset-2">
+                        <img src="{{ STATIC_URL }}img/pontox.png">                       
+                      </div>
+                      <label class="control-label col-lg-3" for="inputEmail">Usuário:</label>
+                      <div class="col-lg-9">
+                        {{ form.username }}
+                      </div>
+                    </div>
+                    <!-- Password -->
+                    <div class="form-group">
+                      <label class="control-label col-lg-3" for="inputPassword">Senha:</label>
+                      <div class="col-lg-9">
+                        {{ form.password }}
+                      </div>
+                    </div>
+                    
+                    <div class="col-lg-9 col-lg-offset-3">
+        							<input type="submit" class="btn btn-info btn-sm" value="Login">
+        							<button type="reset" class="btn btn-default btn-sm">Limpar</button>
+						        </div>
+          
+                    <hr />
+                    <br />
+                  </form>
+
+				</div>
+      </div>
+        <div class="widget-foot">
+          Não tem acesso? <a href="">Entre em contato</a>
+        </div>
+    </div>
+  </div> 
+</div>
+
+
+
+<!-- JS -->
+<script src="{{ STATIC_URL }}js/jquery.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+{% endblock %}

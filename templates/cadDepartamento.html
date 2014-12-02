@@ -1,0 +1,46 @@
+ {% extends 'base-index.html' %}
+
+{% block matter %}
+    <div class="admin-form" xmlns="http://www.w3.org/1999/html">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <!-- Widget starts -->
+            <div class="widget wred">
+              <div class="widget-head">
+                <i class="fa fa-lock"></i> Register
+              </div>
+              <div class="widget-content">
+                <div class="padd">
+
+                  <form method="post" action="" class="form-horizontal">
+                      {% csrf_token %}
+                    <!-- Registration form starts -->
+                                      <h5 class="form">Departamento</h5>
+                                          <div class="form-group">
+                                            <div class="col-lg-9 col-lg-offset-1">
+                                              {{ formDep.as_p}}
+                                            </div>
+                                           </div>
+
+
+                                          <!-- Accept box and button s-->
+                                          <div class="form-group">
+
+                                            <div class="col-lg-9 col-lg-offset-3">
+											  <div class="checkbox">
+											  </div>
+                                              <button type="submit" class="btn btn-sm btn-success">Adicionar</button>
+                                              <button type="reset" class="btn btn-sm btn-default">Reset</button>
+                                            </div>
+                                          </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
