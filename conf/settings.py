@@ -97,3 +97,8 @@ LOGIN_REDIRECT_URL = '/index'
 
 MEDIA_URL = '/media/'
 MERIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
