@@ -69,6 +69,8 @@ $(document).ready(function(){
                             '<label class="label label-warning">'+dados[i].semana2+'</label>'+
                             '<label class="label label-danger">'+dados[i].semana3+'</label>'+
                             '<label class="label label-primary">'+dados[i].semana4+'</label>'+
+                            '<label class="label label-success">'+dados[i].semana5+'</label>'+
+                            '<label class="label label-primary">'+dados[i].semana6+'</label>'+
                            '</td>'+
                         '</tr>'
                     }

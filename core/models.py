@@ -1,7 +1,8 @@
 #coding: utf-8
 from django.db import models
-from datetime import timedelta, date
+from datetime import timedelta, date, datetime
 from templatetags.time_format import horas_acumuladas
+from calendar import Calendar
 
 class Departamento(models.Model):
     nome = models.CharField(max_length=80)
@@ -35,16 +36,22 @@ class Usuario(models.Model):
         return total
 
     def horas_semana(self, ano, mes, semana):
-        n_semana = semana
+
         total = timedelta(hours=0, minutes=0)
-        mes = date(year=ano, month=mes, day=1)
 
-        semana = mes + timedelta(weeks=semana)
-        mes = mes + timedelta(weeks=n_semana-1)
+        calendario = Calendar()
+        listasemana = calendario.monthdays2calendar(year=ano, month=mes)
 
-        for dia in self.diatrabalho_set.filter(data__range=[mes, semana]):
-            total += dia.horas_trabalhadas()
-        return total
+        try:
+            for dia in listasemana[semana]:
+                if not dia[0] == 0:
+                    diatrabalhado = self.diatrabalho_set.filter(data=datetime(year=ano, month=mes, day=dia[0]))
+                    if diatrabalhado:
+                        diatrabalhado = diatrabalhado[0]
+                        total += diatrabalhado.horas_trabalhadas()
+            return total
+        except IndexError:
+            return timedelta(hours=0, minutes=0)
 
     def horas_as_json(self, ANO, MES):
         ANO = int(ANO); MES = int(MES)
@@ -55,6 +62,8 @@ class Usuario(models.Model):
             semana2=horas_acumuladas(self.horas_semana(ANO, MES, 2)),
             semana3=horas_acumuladas(self.horas_semana(ANO, MES, 3)),
             semana4=horas_acumuladas(self.horas_semana(ANO, MES, 4)),
+            semana5=horas_acumuladas(self.horas_semana(ANO, MES, 5)),
+            semana6=horas_acumuladas(self.horas_semana(ANO, MES, 6)),
         )
 
     def __unicode__(self):

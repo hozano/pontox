@@ -2,619 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f95f85-63da-41cc-8eb2-cb447dfff72c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pontox.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/001_2014_4_Clock.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/001_GLog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/download.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/basic doc/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/0-base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/charts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/bootstrap-datetimepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/jquery.cleditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/jquery.onoff.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/prettyPhoto.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/rateit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/css/widgets.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/dynamic-tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/error-log.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/forms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/cleditor/buttons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/cleditor/toolbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/cream.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/back_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/back_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/back_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/forward_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/forward_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/forward_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/data-tables/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/delete.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/favicon/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/android.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/chrome.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/firefox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/ie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/ios.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/linux.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/mac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/metro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/opera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/safari.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/icons/windows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/ie-spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/main-back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/s9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/photos/t9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/dark_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/default/default_thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/default/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/default/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/default/sprite_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/default/sprite_prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/default/sprite_x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/default/sprite_y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/facebook/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/facebook/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/facebook/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/prettyPhoto/light_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/star.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/user-big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/img/user.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/invoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/bootstrap-datetimepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/charts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/excanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.cleditor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.flot.stack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.noty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.onoff.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.prettyPhoto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.rateit.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/jquery.slimscroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/layouts/bottom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/layouts/top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/layouts/topRight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/sparklines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/js/themes/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/media.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/statement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/support.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/ui.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/widgets1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/widgets2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/theme/widgets3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macadmin/widget markup.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/img/about.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/img/feature.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/img/filter.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/img/portfolio.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/img/pricing.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/img/pricing2.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/img/testimonial.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/basic doc/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/codes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/0-base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/404-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/404-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/about1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/about2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/arrow_large_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/arrow_large_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/arrow_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/arrow_left2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/arrow_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/arrow_right2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/arrowleft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/arrowright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/arrows.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/black50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/boxed_bgtile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/bullet_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/bullets.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/bullets.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/bullets2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/coloredbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/grain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/gridtile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/gridtile_3x3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/gridtile_3x3_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/gridtile_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/large_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/large_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/loader2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/navigdots.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/navigdots_bgtile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/shadow1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/shadow2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/shadow3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/small_arrows.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/small_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/small_left_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/small_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/small_right_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/timerdot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/transparent.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/assets/white50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/blog-3col.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/blog-single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/blog1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/blog2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/blog3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/blog4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/careers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/clients.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/comingsoon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/contactus1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/contactus2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/brown.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/prettyPhoto.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/settings.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/css/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/features1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/features2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/features3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/bg_direction_nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/clients/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/clients/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/clients/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/clients/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/clients/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/clients/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/cream.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/favicon/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/page-head.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/parallax/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/parallax/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/parallax/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/parallax/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/parallax/arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/l1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/l2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/l3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/l4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/l5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/user-big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/photos/user-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/dark_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/default/default_thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/default/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/default/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/default/sprite_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/default/sprite_prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/default/sprite_x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/default/sprite_y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/facebook/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/facebook/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/facebook/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/prettyPhoto/light_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/sep.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/slider/s11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/slider/s21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/slider/s22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/slider/s23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/slider/slide1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/slider/slide2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/user/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/user/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/user/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/user/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/user/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/work/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/work/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/work/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/work/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/img/work/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/index-rslider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/index1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/jquery.cslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/jquery.isotope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/jquery.prettyPhoto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/jquery.themepunch.plugins.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/jquery.themepunch.revolution.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/modernizr.custom.28468.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/portfolio1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/portfolio2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/pricing1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/pricing2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/process.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/project.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/resume.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/service1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/service2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/service3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/sitemap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/support.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/macbeath/theme/testimonials.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/img/account.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/img/filter.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/img/items-side.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/img/items.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/img/promo.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/basic doc/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/codes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/0-base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/arrow_large_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/arrow_large_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/arrow_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/arrow_left2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/arrow_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/arrow_right2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/arrowleft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/arrowright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/arrows.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/black50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/boxed_bgtile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/bullet_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/bullets.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/bullets.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/bullets2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/coloredbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/grain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/gridtile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/gridtile_3x3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/gridtile_3x3_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/gridtile_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/large_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/large_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/loader2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/navigdots.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/navigdots_bgtile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/shadow1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/shadow2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/shadow3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/small_arrows.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/small_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/small_left_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/small_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/small_right_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/timerdot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/transparent.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/assets/white50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/blog-single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/checkout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/confirmation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/brown.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/settings.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/sidebar-nav.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/css/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/edit-profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/general.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/bg_direction_nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/cream.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/deal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/favicon/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/hot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/icon-psd.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/page-head.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/payment/americanexpress.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/payment/discover.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/payment/mastercard.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/payment/paypal.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/payment/visa.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/1-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/1-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/1-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/1-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/1-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/promo-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/promo-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/promo-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/slider1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/slider2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/slider3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/slider4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/slider5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/user-big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/photos/user-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/sale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/sep.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/slider/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/slider/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/slider/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/slider/girl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/slider/s31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/slider/s32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/slider/s33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/img/slider/slide-back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/index-rslider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/items.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/jquery.themepunch.plugins.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/jquery.themepunch.revolution.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/myaccount.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/order-history.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/single-item.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/support.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/view-cart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/WB0G69690/mackart/theme/wish-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pontox_arq/~tmp.tmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pontox/.idea/workspace.xml" afterPath="$PROJECT_DIR$/pontox/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/capturarData.js" afterPath="$PROJECT_DIR$/static/js/capturarData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/models.py" afterPath="$PROJECT_DIR$/core/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/setor.html" afterPath="$PROJECT_DIR$/templates/setor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pontox.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -632,12 +28,57 @@
   <component name="FavoritesManager">
     <favorites_list name="pontox" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.62986004" vertical-offset="330" max-vertical-offset="1995">
+              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+              <folding>
+                <element signature="e#15#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/setor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.75" vertical-offset="0" max-vertical-offset="1965">
+              <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="capturarData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/capturarData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1695">
+              <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/static/js/capturarData.js" />
+        <option value="$PROJECT_DIR$/core/models.py" />
+        <option value="$PROJECT_DIR$/templates/setor.html" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="1020" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
     <option name="height" value="772" />
   </component>
@@ -655,7 +96,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -667,7 +108,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -685,8 +125,18 @@
               <option name="myItemId" value="pontox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pontox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -700,24 +150,143 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pontox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pontox" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pontox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pontox" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pontox" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pontox" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pontox" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pontox" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pontox" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -725,36 +294,42 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="11f95f85-63da-41cc-8eb2-cb447dfff72c" name="Default" comment="" />
       <created>1400768373435</created>
+      <option name="number" value="Default" />
       <updated>1400768373435</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="1020" width="1301" height="772" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24750192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24750192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -768,6 +343,50 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/js/capturarData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1695">
+          <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43838862" vertical-offset="15745" max-vertical-offset="30360">
+          <caret line="1091" column="8" selection-start-line="1091" selection-start-column="8" selection-end-line="1091" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3129585" vertical-offset="6554" max-vertical-offset="9645">
+          <caret line="500" column="8" selection-start-line="500" selection-start-column="8" selection-end-line="500" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/setor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.75" vertical-offset="0" max-vertical-offset="1965">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62986004" vertical-offset="330" max-vertical-offset="1995">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
-
