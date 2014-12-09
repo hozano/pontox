@@ -8,6 +8,7 @@ from core.forms import UploadForm, DepartamentoForm, RegraForm
 from django.views.generic import TemplateView
 import json
 from datetime import datetime
+import calendar
 
 @login_required
 def index(request):
@@ -67,7 +68,7 @@ def upload(request, setor_id):
 
                 Registro.objects.get_or_create(dia_trabalho=dia_trabalho, registro=dateTime)
             return HttpResponseRedirect(reverse('upload', args=(setor_id)))
-    arquivos = Upload.objects.all() 
+    arquivos = Upload.objects.all()
     departamento = Departamento.objects.get(pk=setor_id)
     return render(request, 'upload.html', {'form':form, 'arquivos':arquivos,
                 'setor_id':setor_id, 'departamento':departamento, })
@@ -80,8 +81,15 @@ def registros(request, setor_id):
 
 @login_required
 def setor(request, setor_id):
+    return setor_mes(request, setor_id)
+
+@login_required
+def setor_mes(request, setor_id, ano=datetime.now().year, mes=datetime.now().month):
+    ano=int(ano)
+    mes=int(mes)
     departamento = Departamento.objects.get(pk=setor_id)
-    return render(request, 'setor.html',{'setor_id':setor_id, 'departamento':departamento})
+    data = datetime(ano, mes, calendar.monthrange(ano, mes)[1], 23,59,59,999999)
+    return render(request, 'setor.html',{'departamento':departamento, 'data':data})
 
 @login_required
 def detalhesUsuario(request,setor_id, usuario_id):

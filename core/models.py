@@ -20,6 +20,8 @@ class Departamento(models.Model):
             quinto_nome=ranking[4].nome, quinto_horas=horas_acumuladas(ranking[4].horas_mes(ANO, MES)),
         )
 
+    def usuarios_ativos(self):
+        return Usuario.objects.filter(departamento=self, ativo=False)
 
     def __unicode__(self):
         return self.nome

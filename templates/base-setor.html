@@ -20,20 +20,8 @@
   <!-- jQuery UI -->
   <link rel="stylesheet" href="{{ STATIC_URL }}css/jquery-ui.css">
   <!-- Calendar -->
-  <link rel="stylesheet" href="{{ STATIC_URL }}css/fullcalendar.css">
-  <!-- prettyPhoto -->
-  <link rel="stylesheet" href="{{ STATIC_URL }}css/prettyPhoto.css">
-  <!-- Star rating -->
-  <link rel="stylesheet" href="{{ STATIC_URL }}css/rateit.css">
-  <!-- Date picker -->
-  <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap-datetimepicker.min.css">
-  <!-- CLEditor -->
-  <link rel="stylesheet" href="{{ STATIC_URL }}css/jquery.cleditor.css">
-  <!-- Data tables -->
   <link rel="stylesheet" href="{{ STATIC_URL }}css/jquery.dataTables.css">
   <!-- Bootstrap toggle -->
-  <link rel="stylesheet" href="{{ STATIC_URL }}css/jquery.onoff.css">
-  <!-- Main stylesheet -->
   <link href="{{ STATIC_URL }}css/style.css" rel="stylesheet">
   <!-- Widgets stylesheet -->
   <link href="{{ STATIC_URL }}css/widgets.css" rel="stylesheet">
@@ -70,15 +58,15 @@
       <!-- Navigation starts -->
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 
-             
+
             <ul class="dropdown-menu">
-              
+
                 <div class="progress progress-striped active">
 					<div class="progress-bar progress-bar-info"  role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
 						<span class="sr-only">40% Complete</span>
 					</div>
 			    </div>
-   
+
           <div class="progress progress-striped active">
 					<div class="progress-bar progress-bar-success"  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
 						<span class="sr-only">80% Complete</span>
@@ -173,7 +161,7 @@
               </a>
 
                 <ul class="dropdown-menu">
-                  
+
                   <li>
                     <!-- List item heading h6 -->
                     <h6><a href="#"><b>Regras</b></a></h6>
@@ -181,18 +169,18 @@
                     <p>Antes fazer o upload, cadastre uma regra.</p>
                     <hr />
                   </li>
-            
+
                     <div class="drop-foot">
                       <a href="#">Ver todas</a>
                     </div>
                   </li>
-                </ul> 
+                </ul>
             </li>
 
             <!-- Members button with number of latest members count -->
             <li class="dropdown dropdown-big">
               <a class="dropdown-toggle" href="#" data-toggle="dropdown">
-                <i class="fa fa-user"></i> Membros 
+                <i class="fa fa-user"></i> Membros
               </a>
 
                 <ul class="dropdown-menu">
@@ -215,8 +203,8 @@
 
         </div>
 
-        
-            
+
+
 
           </div>
         </div>
@@ -311,39 +299,21 @@
 <!-- Footer ends -->
 
 <!-- Scroll to top -->
-<span class="totop"><a href="#"><i class="fa fa-chevron-up"></i></a></span> 
+<span class="totop"><a href="#"><i class="fa fa-chevron-up"></i></a></span>
 
-{% block js %}
     <!-- JS -->
 <script src="{{ STATIC_URL }}js/jquery.js"></script> <!-- jQuery -->
 <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script> <!-- Bootstrap -->
 <script src="{{ STATIC_URL }}js/jquery-ui.min.js"></script> <!-- jQuery UI -->
-<script src="{{ STATIC_URL }}js/fullcalendar.min.js"></script> <!-- Full Google Calendar - Calendar -->
-<script src="{{ STATIC_URL }}js/jquery.rateit.min.js"></script> <!-- RateIt - Star rating -->
-<script src="{{ STATIC_URL }}js/jquery.prettyPhoto.js"></script> <!-- prettyPhoto -->
-<script src="{{ STATIC_URL }}js/jquery.slimscroll.min.js"></script> <!-- jQuery Slim Scroll -->
 <script src="{{ STATIC_URL }}js/jquery.dataTables.min.js"></script> <!-- Data tables -->
 
 <script src="{{ STATIC_URL }}js/dataTables.tableTools.js"></script> <!-- Table Tools -->
-<script src="{{ STATIC_URL }}js/ZeroClipboard.js"></script> <!-- Zero Clipboard -->
 
-<script src="{{ STATIC_URL }}js/sparklines.js"></script> <!-- Sparklines -->
-<script src="{{ STATIC_URL }}js/jquery.cleditor.min.js"></script> <!-- CLEditor -->
-<script src="{{ STATIC_URL }}js/bootstrap-datetimepicker.min.js"></script> <!-- Date picker -->
-<script src="{{ STATIC_URL }}js/jquery.onoff.min.js"></script> <!-- Bootstrap Toggle -->
-<script src="{{ STATIC_URL }}js/filter.js"></script> <!-- Filter for support page -->
-<script src="{{ STATIC_URL }}js/custom.js"></script> <!-- Custom codes -->
 
-<script type="text/javascript" src="{{ STATIC_URL }}js/capturarData.js"></script>
-<script type="text/javascript" src="{{ STATIC_URL }}js/alterarInput.js"></script>
+{% block js %}
 
 {% endblock %}
-{% block script %}
 
-<!-- Script for this page -->
-<script type="text/javascript">
-</script>
-{% endblock %}
 
 </body>
 </html>
