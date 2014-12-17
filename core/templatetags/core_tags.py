@@ -8,6 +8,19 @@ def horas_mes(usuario_id, ano, mes):
     usuario = Usuario.objects.get(id=int(usuario_id))
     return usuario.horas_mes(ano, mes)
 
+@register.assignment_tag()
+def horas_semana(usuario_id, ano, mes):
+    usuario = Usuario.objects.get(id=int(usuario_id))
+    return dict (
+        semana1 = usuario.horas_semana(ano, mes, 1),
+        semana2 = usuario.horas_semana(ano, mes, 2),
+        semana3 = usuario.horas_semana(ano, mes, 3),
+        semana4 = usuario.horas_semana(ano, mes, 4),
+        semana5 = usuario.horas_semana(ano, mes, 5),
+        semana6 = usuario.horas_semana(ano, mes, 6),
+    )
+
+
 MONTHS = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
 @register.simple_tag()
 def month_tabs(depto, ano, mes):
