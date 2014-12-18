@@ -29,7 +29,7 @@
                                             {% if departamento.usuarios_ativos %}
                                                 {% for usuario in departamento.usuarios_ativos %}
                                                 <tr>
-                                                  <td><a href="/detalhes_usuario/departamento.id/usuario.id">{{usuario.nome}}</a></td>
+                                                  <td><a href="{% url 'detalhesUsuario' departamento.id usuario.id %}">{{usuario.nome}}</a></td>
                                                   <td>
                                                       {% horas_mes usuario.id data.year data.month as mes %}
                                                         {{ mes | form_horas }}
@@ -83,6 +83,7 @@
 
 {% block js %}
 <script type="text/javascript" charset="utf-8">
+
 $('#table-resumo').dataTable({
       "order": [[ 3, "desc" ]],
       "bDestroy": true,
@@ -92,17 +93,12 @@ $('#table-resumo').dataTable({
             "aButtons": [{
                 "sExtends":"print",
                 "sMessage":"<div class='col-med-4'><div class='well'>"+
-                        '<center><h2>adsf</h2></center>'+"<div><div>"
+                        '<center><h2>{{data.month}}/{{data.year}}</h2></center>'+"<div><div>"
                 },
-                {
-                    "sExtends": "pdf",
-                    "sButtonText": "PDF",
-                    "sPdfOrientation":"landscape",
-                    "mColumns":[0, 1, 2],
-                    "sFileName": "ppg.pdf"
-                }
+
             ]
         }
     });
+
 </script>
 {% endblock %}
