@@ -13,12 +13,12 @@ def horas_mes(usuario_id, ano, mes):
 def horas_semana(usuario_id, ano, mes):
     usuario = Usuario.objects.get(id=int(usuario_id))
     return dict (
-        semana1 = usuario.horas_semana(ano, mes, 1),
-        semana2 = usuario.horas_semana(ano, mes, 2),
-        semana3 = usuario.horas_semana(ano, mes, 3),
-        semana4 = usuario.horas_semana(ano, mes, 4),
-        semana5 = usuario.horas_semana(ano, mes, 5),
-        semana6 = usuario.horas_semana(ano, mes, 6),
+        semana1 = usuario.horas_semana(ano, mes, 0),
+        semana2 = usuario.horas_semana(ano, mes, 1),
+        semana3 = usuario.horas_semana(ano, mes, 2),
+        semana4 = usuario.horas_semana(ano, mes, 3),
+        semana5 = usuario.horas_semana(ano, mes, 4),
+        semana6 = usuario.horas_semana(ano, mes, 5),
     )
 
 @register.filter()
