@@ -1,12 +1,13 @@
 from django import template
+
 from core.models import DiaTrabalho, Usuario
 
 register = template.Library()
 
-@register.simple_tag()
+@register.assignment_tag()
 def horas_mes(usuario_id, ano, mes):
     usuario = Usuario.objects.get(id=int(usuario_id))
-    return usuario.horas_mes(ano, mes)
+    return usuario.horas_mes(ano,mes)
 
 @register.assignment_tag()
 def horas_semana(usuario_id, ano, mes):
@@ -19,6 +20,12 @@ def horas_semana(usuario_id, ano, mes):
         semana5 = usuario.horas_semana(ano, mes, 5),
         semana6 = usuario.horas_semana(ano, mes, 6),
     )
+
+@register.filter()
+def form_horas(value):
+    horas = ((value.days)*24 + (value.seconds)//3600)
+    minutos = (value.seconds % 3600) // 60
+    return "%02i:%02i" %(horas,minutos)
 
 
 MONTHS = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']

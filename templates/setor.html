@@ -30,16 +30,19 @@
                                                 {% for usuario in departamento.usuarios_ativos %}
                                                 <tr>
                                                   <td><a href="/detalhes_usuario/departamento.id/usuario.id">{{usuario.nome}}</a></td>
-                                                  <td>{% horas_mes usuario.id data.year data.month %}</td>
+                                                  <td>
+                                                      {% horas_mes usuario.id data.year data.month as mes %}
+                                                        {{ mes | form_horas }}
+                                                  </td>
                                                   <td>
                                                     {% horas_semana usuario.id data.year data.month as semanas %}
 
-                                                    <label class="label label-success">{{ semanas.semana1 }}</label>
-                                                    <label class="label label-warning">{{ semanas.semana2 }}</label>
-                                                    <label class="label label-danger"> {{ semanas.semana3 }}</label>
-                                                    <label class="label label-primary">{{ semanas.semana4 }}</label>
-                                                    <label class="label label-success">{{ semanas.semana5 }}</label>
-                                                    <label class="label label-primary">{{ semanas.semana6 }}</label>
+                                                    <label class="label label-success">{{ semanas.semana1 | form_horas}}</label>
+                                                    <label class="label label-warning">{{ semanas.semana2 | form_horas}}</label>
+                                                    <label class="label label-danger"> {{ semanas.semana3 | form_horas}}</label>
+                                                    <label class="label label-primary">{{ semanas.semana4 | form_horas}}</label>
+                                                    <label class="label label-default">{{ semanas.semana5 | form_horas}}</label>
+                                                    <label class="label label-info">{{ semanas.semana6 | form_horas}}</label>
 
                                                    </td>
                                                 </tr>
