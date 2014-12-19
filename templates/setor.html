@@ -84,19 +84,24 @@
 {% block js %}
 <script type="text/javascript" charset="utf-8">
 
+$.extend( $.fn.dataTable.defaults, {
+    "bFilter": false,
+
+} );
+
 $('#table-resumo').dataTable({
-      "order": [[ 3, "desc" ]],
-      "bDestroy": true,
-      "sDom": 'T<"clear"><"H"lfr>t<"F"ip>',
+        "bPaginate": false,
+        "order": [[ 3, "desc" ]],
+        "bDestroy": true,
+        "sDom": 'T<"clear"><"H"lfr>t<"F"ip>',
         "tableTools": {
             "sSwfPath": "copy_csv_xls_pdf.swf",
             "aButtons": [{
                 "sExtends":"print",
                 "sMessage":"<div class='col-med-4'><div class='well'>"+
-                        '<center><h2>{{data.month}}/{{data.year}}</h2></center>'+"<div><div>"
+                        '<center><h2>{{ data.month|month_name }} de {{data.year}}</h2></center>'+"<div><div>"
                 },
-
-            ]
+                ]
         }
     });
 

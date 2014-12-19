@@ -1,5 +1,5 @@
 from django import template
-
+import calendar,locale
 from core.models import DiaTrabalho, Usuario
 
 register = template.Library()
@@ -26,6 +26,11 @@ def form_horas(value):
     horas = ((value.days)*24 + (value.seconds)//3600)
     minutos = (value.seconds % 3600) // 60
     return "%02i:%02i" %(horas,minutos)
+
+@register.filter
+def month_name(month_number):
+    locale.setlocale(locale.LC_ALL, '')
+    return calendar.month_name[month_number]
 
 
 MONTHS = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']

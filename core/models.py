@@ -37,6 +37,7 @@ class Usuario(models.Model):
         total = timedelta(hours=0, minutes=0)
         for dia in self.diatrabalho_set.all().filter(data__year=ano, data__month=mes):
             total += dia.horas_trabalhadas()
+
         return total
 
     def horas_semana(self, ano, mes, semana):
