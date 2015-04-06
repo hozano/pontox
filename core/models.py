@@ -22,7 +22,7 @@ class Departamento(models.Model):
         )
 
     def usuarios_ativos(self):
-        return Usuario.objects.filter(departamento=self, ativo=False)
+        return Usuario.objects.filter(departamento=self, ativo=True)
 
     def __unicode__(self):
         return self.nome
@@ -31,7 +31,7 @@ class Usuario(models.Model):
     nome = models.CharField(max_length=120)
     departamento = models.ForeignKey(Departamento)
     carga_horaria_semanal = models.IntegerField(default=20,blank=True)
-    ativo = models.BooleanField(default=False)
+    ativo = models.BooleanField(default=True)
 
     def horas_mes(self, ano, mes):
         total = timedelta(hours=0, minutes=0)
